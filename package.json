@@ -1,0 +1,28 @@
+{
+    "name": "evaluativo",
+    "version": "1.0.0",
+    "description": "Evaluativo Global Learning",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nahuel Benitez",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.2",
+        "express": "^4.17.2",
+        "express-joi-validation": "^5.0.1",
+        "express-jwt": "^6.1.0",
+        "http": "0.0.1-security",
+        "joi": "^17.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "mocha": "^9.2.0",
+        "mongoose": "^6.2.1",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {
+        "eslint": "^8.9.0"
+    }
+}
